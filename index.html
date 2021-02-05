@@ -25,9 +25,9 @@
 .flex-item-up
 {
   
-  padding: 500px;
-  flex: 100%;
-  background: url(img.jpg) no-repeat;
+  padding: 10px;
+  flex: 50%;
+  background-color: #222831;
   background-size: 100%;
 }
 .flex-item-left {
@@ -41,7 +41,10 @@
   padding: 10px;
   flex: 50%;
 }
-
+h2
+{
+  color: whitesmoke;
+}
 @media (max-width: 800px) {
   .flex-item-up, .flex-item-right, .flex-item-left  {
     flex: 100%;
@@ -53,7 +56,13 @@
 
 
 <div class="flex-container"> 
-    <div class="flex-item-up">3</div>
+    <div class="flex-item-up">
+      <h2>Флоренція</h2>
+      <p>
+        <img src="img.jpg" alt="Флоренція" height="300px">
+    </p>
+    </div>
+    </div>
     <div class="flex-item-left">
       
     </div>
